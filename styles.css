@@ -1,0 +1,45 @@
+*{
+    font-family: sans-serif;
+    font-size: 22px
+  }
+  .container{
+    border: 1px solid black;
+  
+    padding: 5px;
+    width: 90%;
+    max-width: 650px;
+    margin: auto;
+  }
+  .container label{
+    font-weight: bold;
+    display: block;
+    margin: auto;
+    text-align: center;
+  }
+  .container input{
+    display: block;
+    margin: auto;
+    width: 60%;
+    min-width: 100px
+  }
+  .container button{
+    display: block;
+    margin: 20px auto;
+    width: 40%;
+    min-width: 100px;  
+  }
+  #result{
+    border: 1px solid black;
+    border-top: none;
+    padding: 5px;
+    width: 90%;
+    max-width: 650px;
+    margin: auto;
+    display: hidden;
+  }
+  main{
+    position: absolute;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+  }
